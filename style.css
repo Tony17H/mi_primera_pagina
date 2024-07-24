@@ -1,0 +1,99 @@
+body{
+    background-color: black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: bisque;
+    width: 100%;
+}
+header img{
+    width: 200px;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    justify-content: center;
+}
+header ul{
+    list-style: none;
+    text-decoration:none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 75px;
+    color: black;
+    font-size: 22px;
+}
+.contenedor1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.caja1{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja1 h1{
+    color: rgb(0, 0, 112);
+    text-decoration-line: none;
+}
+.caja1 p{
+    font-size: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+.contenedor img{
+    height: 300px;
+    width: 300px;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%; 
+}
+.caja h1{
+    color: rgb(7, 177, 7);
+}
+.caja p{
+    font-size: 20px; 
+    color:black;
+}
+.carrusel{
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    padding: 3%;
+}
+.cajoncarrsel{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+} 
+
